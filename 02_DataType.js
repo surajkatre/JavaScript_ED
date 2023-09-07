@@ -35,3 +35,4 @@ symbol
 // console.log(typeof(isHandsome))
 console.log(typeof(null))
 console.log(typeof(undefined))
+console.log(name,age)
