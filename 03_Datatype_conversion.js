@@ -39,7 +39,7 @@ let somevar = 33
 // console.log(typeof(strinNum))
 
 
-// *********************** Operations*************//
+// *********************** Operations*****************//
 
 let value = 33;
 let  negVal= -value

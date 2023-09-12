@@ -32,21 +32,67 @@ Array, Objects,Functions
 
 const heroes = ["Ram", "shyam", "honeyPaji"]
 
-console.log(heroes[1]);
+// console.log(heroes[1]);
 
    let mypersonal ={
     name:"Suraj",
     age : 22
 }
-console.log(mypersonal);
+// console.log(mypersonal);
 
 
 
 // function 
 
 const myfun = function() {
-    console.log("mera yeshu");
+    // console.log("mera yeshu");
 }
 
 // console.log(myfun);
-console.log(typeof(myfun));
+// console.log(typeof(myfun));
+
+
+
+
+// ******* Stack and Heap Memory*
+// stack (premitive ), Heap (Non-premitive)
+
+let myName = "Surya Don"
+
+let Noymyname = myName
+Noymyname = "chaipani"
+console.log(myName);
+console.log(Noymyname);
+
+
+let user= {
+    email:" suraj@abc.com",
+    upi: "user@asxix"
+}
+
+let user1 = user
+
+user1.email = "Raju@abc.com"
+console.log(user.email);
+console.log(user1.email);
+
+
+
+let sname ="suraj"
+
+console.log(sname);
+
+
+let secondname = sname;
+
+secondname = "ramu"
+console.log(secondname);
+
+let dum= {
+    dmail: "aaa@google.com",
+    gID: 69
+}
+
+
+//when we change premitive reference then the actual value will be change and
+// in premitive only the copies value will change
